@@ -46,3 +46,7 @@ body {
 .basic-gradient {
   @apply bg-gradient-to-r from-blue-600 via-primary to-teal-300 bg-clip-text text-transparent;
 }
+
+.footer-text {
+  @apply bg-gradient-to-r from-blue-300 via-primary to-teal-300 bg-clip-text text-transparent font-medium;
+}
