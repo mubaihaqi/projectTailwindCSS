@@ -42,3 +42,7 @@ body {
   /* transform: translateY(-6px) rotate(-45deg); */
   @apply -rotate-45 w-[24px] bg-primary;
 }
+
+.basic-gradient {
+  @apply bg-gradient-to-r from-blue-600 via-primary to-teal-300 bg-clip-text text-transparent;
+}
